@@ -1,0 +1,185 @@
+<html>
+    <head> 
+        <title>Aula Java Script</title>        
+    </head>
+    <body>
+        <div id="app">   
+            <ul>
+                
+            </ul>
+            <input type="text" placeholder="Digite algo a fazer">
+            <button>Adicionar</button>
+        </div>
+
+
+        <script src = "Listagem.js"></script>
+
+
+        <script>
+        // <ul> = lista
+        // <li> = itens 
+        // <a href=""> = links
+        </script>
+
+
+        <script>
+        /*var boxElement = document.querySelector('.box');
+        boxElement.style.width = 100;
+        boxElement.style.height = 100;
+        boxElement.style.backgroundColor = '#f00';
+
+        ---------------------------------*/           
+
+        /*var linkElement = document.createElement('a');
+        linkElement.setAttribute('href', 'http://google.com');
+        linkElement.setAttribute('title', 'Acessar site');
+
+        var textElement = document.createTextNode('Busque no Google');
+        linkElement.appendChild(textElement);
+
+        var containerElement = document.querySelector('#app');
+        containerElement.appendChild(linkElement);
+
+        var inputElement = document.querySelector('#nome');
+        containerElement.removeChild(inputElement);
+
+        ---------------------------------*/
+
+        /*var inputElement = document.querySelector('input[name=nome]')
+        var btnElement = document.querySelector('button.botao');
+
+        btnElement.onclick = function()
+        {
+            var text = inputElement.value;
+            alert(text);
+        }*/           
+        </script>
+
+
+
+        <script> 
+        //getElementById('nome') / getElementsByTagName('input')[0] / getElementsByTagName('nomeDaClasse')[0]
+
+        //script - dentro dele trabalha o código (pode ficar dentro de head ou body) 
+            /*--------------------------
+            var nome = "Amanda";
+            var idade = 27;
+            var peso = 65.5;
+            var humano = true;
+
+            var alunos = ['Amanda', 'Vanessa', 'Fabio'];
+
+            var aluno = {
+                nome: alunos[0],
+                idade: 27,
+                peso: 55.5,
+                humano: true
+            };
+            console.log(alunos[0])
+            console.log(aluno.peso);             
+            ----------------------------
+            var x = 10, 
+            y = 5;
+            
+            x *= y
+            //x = x + 3
+            //x = x * y
+            console.log(x);
+            ---------------------------
+            function soma(numero1, numero2)
+            {
+                var resultado = numero1 + numero2;
+                return resultado;
+            }
+            var resultado = soma(1,2);
+            console.log(resultado);
+            ---------------------------
+            function retornaSexo(sexo)
+            {
+                if (sexo === 'M')
+                {
+                    return 'Masculino';
+                }
+                else if (sexo === 'F')
+                {
+                    return 'Feminino';
+                }
+                else
+                {
+                    return 'Outro'
+                }
+            }
+            var resultado = retornaSexo('H');
+            console.log(resultado);
+            ---------------------------
+            function retornaSexo(sexo)
+            {
+                switch (sexo)
+                {
+                    case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default: 
+                        return 'Outro';                  
+                }
+            } 
+            var resultado = retornaSexo('F');
+            console.log(resultado);
+            ---------------------------
+            //AND &&, OR ||, NOT !==
+            // === comparação booleana e verificação de igualdade de tipo (string, int...)
+
+            var sexo = 'M', idade = 23;
+
+            if (sexo === 'M' && idade >= 18)            
+            {
+                console.log('OK')
+            }
+            ---------------------------
+            var sexo = 'M';
+            var masculino = sexo === 'M'; //forma resumida do codigo abaixo
+
+            //if (sexo === 'M')
+            //{
+            //    masculino = true;
+            //}
+            //else
+            //{
+            //    masculino = false;
+            //}
+            console.log(masculino);
+            ---------------------------            
+            //OPERADORES TERNARIOS 
+            //(? então faça)   (: senão faça)
+            
+            var sexo = 'F';
+            var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+            console.log(retorno);
+            ---------------------------
+            //FOR = USO QUANDO TENHO IDEIA/CONTROLE DA DIMENÇÃO DESSA OPERAÇÃO
+
+            for (var i = 0; i <= 100; i++)
+            {
+                console.log(i)
+            }
+            ---------------------------
+            //WHILE = USADO QUANDO NÃO TENHO CONTROLE DE QUANTAS VEZES SERÁ REPETIDO O COMANDO            
+            
+            var j = 25265445852
+            while (j > 50)
+            {
+                console.log(j)
+                j /= 5;
+            }
+            ---------------------------
+            function exibeAlgo()
+            {
+                console.log('Hello World');
+            }
+            //setInterval(exibeAlgo, 1000);  //a casa segundo está executando o comando
+            setTimeout(exibeAlgo, 5000);     //depois de 5 segundos ele executa o comando            
+            ---------------------------*/
+    </script>
+    </body>
+</html>
